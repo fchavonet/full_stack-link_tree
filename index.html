@@ -19,11 +19,14 @@
 	<script src="./script.js" defer></script>
 </head>
 
-<body>
+<body class="noise">
 	<div id="container">
 		<!-- HEADER -->
 		<header>
-			HEADER
+			<img id="profile-picture" src="./assets/images/profile_picture.webp" alt="Image de profil">
+			<h1 id="profile-name">Fabien Chavonet</h1>
+			<p id="profile-job">Développeur Full Stack</p>
+			<p id="profile-description">Découvrez mon profil et mes réalisations !</p>
 		</header>
 
 		<!-- MAIN -->
@@ -34,171 +37,54 @@
 				<span id="scroll-hint"></span>
 			</div>
 
-			<!-- -->
+			<!-- Projects list -->
 			<div id="scrolling-container">
 				<div id="projects-container">
-					<a class="project-card" href="" target="_blank">
-						<h2 id="project-title">Project title</h2>
+					<!-- Personnal website -->
+					<a class="project-card" href="https://fchavonet.dev/" target="_blank">
+						<h2 class="project-title">Site personnel</h2>
 
-						<p id="project-description">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, accusamus.
+						<p class="project-description">
+							Découvrez mon parcours, mes réalisations et mes compétences de développeur Full Stack.
 						</p>
 
-						<div id="tags-container">
+						<img class="project-screenshot" src="./assets/images/screenshots/screenshot-personal_website.webp" alt="Capture d'écran de mon site personnel">
+
+						<div class="tags-container">
+							<span class="tech-tag">HTML</span>
+							<span class="tech-tag">Tailwind CSS</span>
+							<span class="tech-tag">JavaScript</span>
+						</div>
+					</a>
+
+					<!-- Holberton Survivors -->
+					<a class="project-card" href="https://holbertonsurvivors.com/" target="_blank">
+						<h2 class="project-title">Holberton Survivors</h2>
+
+						<p class="project-description">
+							Site promotionnel de notre projet de fin de première année à la Holberton School.
+						</p>
+
+						<img class="project-screenshot" src="./assets/images/screenshots/screenshot-holberton_survivors.webp" alt="Capture d'écran du site Holberton Survivors">
+
+						<div class="tags-container">
 							<span class="tech-tag">HTML</span>
 							<span class="tech-tag">CSS</span>
 							<span class="tech-tag">JavaScript</span>
 						</div>
 					</a>
 
-					<a class="project-card" href="" target="_blank">
-						<h2 id="project-title">Project title</h2>
+					<!-- GitHub README Builder -->
+					<a class="project-card" href="https://fchavonet.github.io/web-github_readme_builder/" target="_blank">
+						<h2 class="project-title">GitHub README Builder</h2>
 
-						<p id="project-description">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, accusamus.
+						<p class="project-description">
+							Site promotionnel de notre projet de fin de première année à la Holberton School.
 						</p>
 
-						<div id="tags-container">
-							<span class="tech-tag">HTML</span>
-							<span class="tech-tag">CSS</span>
-							<span class="tech-tag">JavaScript</span>
-						</div>
-					</a>
+						<img class="project-screenshot" src="./assets/images/screenshots/screenshot-github_readme_builder.webp" alt="Capture d'écran de la web application GitHub README Builder">
 
-					<a class="project-card" href="" target="_blank">
-						<h2 id="project-title">Project title</h2>
-
-						<p id="project-description">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, accusamus.
-						</p>
-
-						<div id="tags-container">
-							<span class="tech-tag">HTML</span>
-							<span class="tech-tag">CSS</span>
-							<span class="tech-tag">JavaScript</span>
-						</div>
-					</a>
-
-					<a class="project-card" href="" target="_blank">
-						<h2 id="project-title">Project title</h2>
-
-						<p id="project-description">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, accusamus.
-						</p>
-
-						<div id="tags-container">
-							<span class="tech-tag">HTML</span>
-							<span class="tech-tag">CSS</span>
-							<span class="tech-tag">JavaScript</span>
-						</div>
-					</a>
-
-					<a class="project-card" href="" target="_blank">
-						<h2 id="project-title">Project title</h2>
-
-						<p id="project-description">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, accusamus.
-						</p>
-
-						<div id="tags-container">
-							<span class="tech-tag">HTML</span>
-							<span class="tech-tag">CSS</span>
-							<span class="tech-tag">JavaScript</span>
-						</div>
-					</a>
-
-					<a class="project-card" href="" target="_blank">
-						<h2 id="project-title">Project title</h2>
-
-						<p id="project-description">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, accusamus.
-						</p>
-
-						<div id="tags-container">
-							<span class="tech-tag">HTML</span>
-							<span class="tech-tag">CSS</span>
-							<span class="tech-tag">JavaScript</span>
-						</div>
-					</a>
-
-					<a class="project-card" href="" target="_blank">
-						<h2 id="project-title">Project title</h2>
-
-						<p id="project-description">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, accusamus.
-						</p>
-
-						<div id="tags-container">
-							<span class="tech-tag">HTML</span>
-							<span class="tech-tag">CSS</span>
-							<span class="tech-tag">JavaScript</span>
-						</div>
-					</a>
-
-					<a class="project-card" href="" target="_blank">
-						<h2 id="project-title">Project title</h2>
-
-						<p id="project-description">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, accusamus.
-						</p>
-
-						<div id="tags-container">
-							<span class="tech-tag">HTML</span>
-							<span class="tech-tag">CSS</span>
-							<span class="tech-tag">JavaScript</span>
-						</div>
-					</a>
-
-					<a class="project-card" href="" target="_blank">
-						<h2 id="project-title">Project title</h2>
-
-						<p id="project-description">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, accusamus.
-						</p>
-
-						<div id="tags-container">
-							<span class="tech-tag">HTML</span>
-							<span class="tech-tag">CSS</span>
-							<span class="tech-tag">JavaScript</span>
-						</div>
-					</a>
-
-					<a class="project-card" href="" target="_blank">
-						<h2 id="project-title">Project title</h2>
-
-						<p id="project-description">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, accusamus.
-						</p>
-
-						<div id="tags-container">
-							<span class="tech-tag">HTML</span>
-							<span class="tech-tag">CSS</span>
-							<span class="tech-tag">JavaScript</span>
-						</div>
-					</a>
-
-					<a class="project-card" href="" target="_blank">
-						<h2 id="project-title">Project title</h2>
-
-						<p id="project-description">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, accusamus.
-						</p>
-
-						<div id="tags-container">
-							<span class="tech-tag">HTML</span>
-							<span class="tech-tag">CSS</span>
-							<span class="tech-tag">JavaScript</span>
-						</div>
-					</a>
-
-					<a class="project-card" href="" target="_blank">
-						<h2 id="project-title">Project title</h2>
-
-						<p id="project-description">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, accusamus.
-						</p>
-
-						<div id="tags-container">
+						<div class="tags-container">
 							<span class="tech-tag">HTML</span>
 							<span class="tech-tag">CSS</span>
 							<span class="tech-tag">JavaScript</span>
@@ -207,8 +93,8 @@
 				</div>
 			</div>
 
-			<!-- -->
-			<div id="scroll-indicators">
+			<!-- Scroll indicators -->
+			<div id="scroll-indicators-container">
 				<div id="project-number">
 					<span id="current-project"></span>/<span id="total-projects"></span>
 				</div>
@@ -217,15 +103,30 @@
 					<div id="progress-bar"></div>
 				</div>
 
-				<button id="scroll-top-button" title="Revenir au premier projet">
-					<i class="fas fa-chevron-up"></i>
+				<button id="scroll-to-top-button" title="Revenir au premier projet">
+					Top <i class="fas fa-chevron-up"></i>
 				</button>
 			</div>
 		</main>
 
 		<!-- FOOTER -->
 		<footer>
-			FOOTER
+			<!-- Social media links -->
+			<a class="social-link" href="https://github.com/fchavonet" title="GitHub" target="_blank">
+				<i class="fab fa-github github"></i>
+			</a>
+			
+			<a class="social-link" href="https://www.instagram.com/pandolowitz/" title="Instagram" target="_blank">
+				<i class="fab fa-instagram instagram"></i>
+			</a>
+			
+			<a class="social-link" href="https://fr.linkedin.com/in/fchavonet" title="LinkedIn" target="_blank">
+				<i class="fab fa-linkedin linkedin"></i>
+			</a>
+
+			<a class="social-link" href="mailto:fchavonet@mail.fr" title="E-mail" target="_blank">
+				<i class="fas fa-envelope envelope"></i>
+			</a>
 		</footer>
 	</div>
 </body>
