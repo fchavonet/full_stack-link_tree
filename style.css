@@ -39,6 +39,7 @@ body {
 	height: 100vh;
 	width: 100%;
 	padding: 1rem;
+	overflow: hidden;
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	color: var(--text-color-light);
 	background: linear-gradient(to right, rgb(9, 9, 11), rgb(17, 24, 39), rgb(9, 9, 11));
@@ -335,7 +336,7 @@ footer {
 	color: var(--text-color-light);
 	transform: translateY(-2px);
 	background-color: var(--primary-color);
-	box-shadow: 0 0.25rem 1rem rgba(255, 255, 255, 0.1);
+	box-shadow: 0 0.25rem 1rem rgba(255, 255, 255, 0.2);
 }
 
 .envelope {

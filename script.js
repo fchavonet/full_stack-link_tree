@@ -59,7 +59,26 @@ scrollToTopButton.addEventListener("click", function () {
 	});
 });
 
+// Set opacity to 0 to match startup animation.
+scrollHintContainer.style.opacity = "0";
+
 // Initialize indicators on load.
 updateScrollIndicators();
 
 
+/*****************************
+* STARTUP ANIMATION BEHAVIOR *
+*****************************/
+
+const animateElements = document.querySelectorAll(".animate-element");
+
+animateElements.forEach(function (element, index) {
+	element.style.opacity = "0";
+	element.style.transform = "translateY(2rem)";
+
+	setTimeout(function () {
+		element.style.transition = "all 0.5s ease";
+		element.style.opacity = "1";
+		element.style.transform = "translateY(0)";
+	}, index * 100);
+});
